@@ -2,9 +2,9 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * more headers goes ther
+ *  betty style doc for function main goes there
  * main - prints if number is positive, zero or negative
- * return :
+ * return : successfuly
  * betty style doc for function main goes there
  *
  */
