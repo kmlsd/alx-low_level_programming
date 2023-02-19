@@ -1,7 +1,7 @@
 #include<stdio.h>
-/**
- * main alphabet input 
- * return:always
+/**new part
+ *main alphabet inpu
+ *return:always
  */
 int main(void)
 {
