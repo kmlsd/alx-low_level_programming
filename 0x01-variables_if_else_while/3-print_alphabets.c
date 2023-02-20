@@ -1,15 +1,20 @@
 #include <stdio.h>
 
 /**
- *
+ * main - Entry point
+ * Description: 'the program's description
+ * Return: Always 0 (Success)
  */
- int main()
-{	
-	char alp;
-	for (alp = 'A'; alp <= 'Z'; alp++)
-		putchar(alp);
+int main(void)
+{
+		char c;
+		char alp;
+
+		for (c = 'a'; c <= 'z'; c++)
+			putchar(c);
+		for (alp = 'A'; alp <= 'Z'; alp++)
+			putchar(alp);
 
 	putchar('\n');
-
-	return 0;
+	return (0);
 }
