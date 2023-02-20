@@ -17,13 +17,6 @@ int main(void)
 	c = 'a';
 	d = 0;
 	while
-		
-		( c <= 'f')
-		{
-			putchar(c);
-			c++;
-	}
-	while
 
 		( d < 10 )
 		{
@@ -32,6 +25,14 @@ int main(void)
 			d++;
 
 	}
+
+	 while
+
+                ( c <= 'f')
+                {
+                        putchar(c);
+                        c++;
+        }
 	putchar('\n');
 	return (0);
 
