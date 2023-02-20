@@ -14,7 +14,7 @@ int main(void)
 	for (l = d + 1; l <= 99; l++)
 	{
 	putchar((d / 10) + '0');
-	putchar((l % 10) + '0');
+	putchar((d % 10) + '0');
 	putchar(' ');
 	putchar((l / 10) + '0');
 	putchar((l % 10) + '0');
