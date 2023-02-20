@@ -1,18 +1,20 @@
-#include <stdio.h>
-#include <stdlib.h>
+#include<stdio.h>
+
 /**
  * main - Entry point
- * Description: 'the program's description
+ * Description: 'the program's description'
  * Return: Always 0 (Success)
  */
+
 int main(void)
 {
-	int k;
+	int c;
 
-	for (k = 0; k < 10; k++)
-	{
-		putchar(k);
-	}
-	putchar('\n');
-	return (0);
+	for (c = 0; c < 10; c++)
+		putchar(c + '0');
+
+	 putchar('\n');
+	 return (0);
+
+
 }
