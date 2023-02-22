@@ -1,26 +1,26 @@
-#include <stdio.h>
+#include "main.h"
 
 /**
- * main - Entr
- * Return: Always 0 (Success)
+ * _islower - check the code.
+ * c - Input is integer
+ *
+ * Return: Always 0.
  */
-
-int  _islower(int c)
+int _islower(int c)
 {
 
 
 
-	char c;
 
-	if (c >= 'a' && c <= 'z')
-	{
-	return (1);
-	}
+	if (c >= 97 && c <= 122)
+		return (1);
 	else
-	{
-	return (0);
-	}
+		return (0);
 
-	return (int);
+
+	_putchar('\n');
+
+
+
 
 }
