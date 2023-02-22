@@ -2,7 +2,7 @@
 #include <unistd.h>
 
 /**
- * main-input out head
+ * print_alphabet_x10-input out head
  * return:alway 0
  */
 
@@ -22,6 +22,5 @@ void print_alphabet_x10(void)
 	}
 	_putchar('\n');
 	}
-	return;
 
 }
