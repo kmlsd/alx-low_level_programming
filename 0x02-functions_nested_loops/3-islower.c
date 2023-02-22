@@ -2,7 +2,7 @@
 
 /**
  * _islower - check the code.
- * c - Input is integer
+ * @c:Input is integer
  *
  * Return: Always 0.
  */
