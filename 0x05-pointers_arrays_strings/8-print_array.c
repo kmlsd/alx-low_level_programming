@@ -3,6 +3,7 @@
  * print_array-hat prints n elements of an array of integers
  * @a:is int pointer
  * @n:n is int input
+ * Return:void
  */
 void print_array(int *a, int n)
 {
