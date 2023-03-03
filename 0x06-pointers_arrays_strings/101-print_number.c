@@ -1,6 +1,8 @@
 #include"main.h"
 #include<string.h>
 #include<stdio.h>
+#include<math.h>
+
 
 /**
  * print_number- a function that prints an integer
@@ -9,16 +11,20 @@
  */
 void print_number(int n)
 {
-	unsigned int a;
+	unsigned int al;
 
+	al = n;
+	
 	if (n < 0)
 	{
 		_putchar('-');
-		a = -n;
+		al = -n;
 	}
-	if (a / 10 != 0)
+
+	if (al / 10 != 0)
 	{
-		print_number(a / 10);
+		print_number(al / 10);
 	}
-	_putchar((a % 10) + '0');
+	_putchar((al % 10) + '0');
+
 }
