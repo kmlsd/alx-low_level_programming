@@ -1,5 +1,6 @@
 #include "main.h"
-#include <stdio.h>
+#include <unistd.h>
+
 
 /**
  * _putchar-input or out put prg
@@ -10,4 +11,5 @@
 int _putchar(char c)
 {
 	return (write(1, &c, 1));
+
 }
