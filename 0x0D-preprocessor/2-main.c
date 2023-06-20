@@ -7,6 +7,7 @@
  */
 int main(void)
 {
-	printf("%s\n", __FILE__);
+	printf("%s\n", __DATE__);
+	printf("%d\n",  __STDC_HOSTED__ );
 	return (0);
 }
