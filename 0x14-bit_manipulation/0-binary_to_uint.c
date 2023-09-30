@@ -15,19 +15,20 @@ unsigned int binary_to_uint(const char *b)
 	if (!b)
 		return (0);
 	while (b[i])
+	{
 		i++;
+	}
+
 	i -= 1;
 	k = i;
 
+	
 	while  (i >= 0)
 	{
 		if (i == k)
 			base2 = 1;
 		else
 			base2 *= 2;
-
-		if (b[i] != 1 || b[i] != 0)
-			return b[i];
 
 		if  (b[i] & 1)
 			decs += base2;
