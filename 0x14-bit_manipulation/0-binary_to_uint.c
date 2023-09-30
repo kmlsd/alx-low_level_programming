@@ -10,19 +10,26 @@
 unsigned int binary_to_uint(const char *b)
 {
 	unsigned int decs = 0;
-	int i = 0, base2 = 1;
+	int i = 0, base2 = 1, k;
 
 	if (!b)
 		return (0);
 	while (b[i])
 		i++;
 	i -= 1;
+	k = i;
 
 	while  (i >= 0)
 	{
-		base2 *= 2;
+		if (i == k)
+			base2 = 1;
+		else
+			base2 *= 2;
 
-		if (b[i] & 1)
+		if (b[i] != 1 || b[i] != 0)
+			return b[i];
+
+		if  (b[i] & 1)
 			decs += base2;
 		i--;
 
