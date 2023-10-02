@@ -1,0 +1,1 @@
+file  creat read $write
