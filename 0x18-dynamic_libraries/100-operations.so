@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc  -c integ_op.c -fPIC && gcc integ_op.o  -shared -o 100-operations.so
+gcc  -c integ_op.c -fPIC && gcc integ_op.o  -shared -o operations.so
