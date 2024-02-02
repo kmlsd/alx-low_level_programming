@@ -40,12 +40,12 @@ int div(int a, int b)
 	return (a / b);
 }
 /**
-* mol - mol two interger
+* mod - mod two interger
 * @a: first integer
 * @b: second integ
 * Return: mol of a & b
 */
-int mol(int a, int b)
+int mod(int a, int b)
 {
 	return (a % b);
 }
